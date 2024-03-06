@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+.slick-arrow {
+  display: none !important;
+}
+@layer base {
+  h1 {
+    @apply text-5xl font-bold text-neutral-50;
+  }
+  h2 {
+    @apply text-4xl font-bold text-neutral-50;
+  }
+  h3 {
+    @apply text-2xl font-normal text-neutral-50;
+  }
+  p{
+    @apply text-lg font-normal text-neutral-50;
+  }
+  span{
+    @apply text-sm font-normal text-neutral-50;
+  }
+  li {
+    @apply text-sm font-normal text-neutral-50;
+  }
+
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
